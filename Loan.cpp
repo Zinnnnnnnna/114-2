@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-// µL°Ñ¼Æ«Øºc¤l
+// ç„¡åƒæ•¸å»ºæ§‹å­
 Loan::Loan() {
     yearrate = 2.5;
     number = 1;
@@ -10,14 +10,14 @@ Loan::Loan() {
     graceperiod = 0;
 }
 
-// ¦³°Ñ¼Æ«Øºc¤l
+// æœ‰åƒæ•¸å»ºæ§‹å­
 Loan::Loan(double rate, int years, double amount) {
     yearrate = rate;
     number = years;
     money = amount;
 }
 
-// Getter ¹ê§@
+// Getter å¯¦ä½œ
 double Loan::getYearrate() const {
     return yearrate;
 }
@@ -34,7 +34,7 @@ int Loan::getGraceperiod() const {
     return graceperiod;
 }
 
-// Setter ¹ê§@
+// Setter å¯¦ä½œ
 void Loan::setYearrate(double rate) {
     yearrate = rate;
 }
@@ -51,7 +51,7 @@ void Loan::setGraceperiod(int g) {
     graceperiod = g;
 }
 
-// ¥\¯à¡G¨C¤ëÀ³Ãºª÷ÃB
+// åŠŸèƒ½ï¼šæ¯æœˆæ‡‰ç¹³é‡‘é¡
 double Loan::getMonthpay() const {
     double monthlyRate = yearrate / 1200;
     int totalMonths = number * 12;
