@@ -3,31 +3,31 @@
 
 class Loan {
 private:
-    double yearrate;  //¦~§Q²v
-    int number;  //¦~¼Æ
-    double money;  //¶U´Úª÷ÃB
+    double yearrate;  //å¹´åˆ©ç‡
+    int number;  //å¹´æ•¸
+    double money;  //è²¸æ¬¾é‡‘é¡
     int graceperiod;
 
 public:
-    // «Øºc¤l
+    // å»ºæ§‹å­
     Loan();
     Loan(double rate, int years, double amount);
 
-    // ¦s¨ú¨ç¦¡¡]Getter¡^
+    // å­˜å–å‡½å¼ï¼ˆGetterï¼‰
     double getYearrate() const;
     int getNumber() const;
     double getMoney() const;
 	int getGraceperiod() const;
 
-    // ­×§ï¨ç¦¡¡]Setter¡^
+    // ä¿®æ”¹å‡½å¼ï¼ˆSetterï¼‰
     void setYearrate(double rate);
     void setNumber(int years);
     void setMoney(double money);
 	void setGraceperiod(int g);
 
-    // ¥\¯à¨ç¦¡
-    double getMonthpay() const;  //¨C¤ë»İ¥Iª÷ÃB
-    double getGraceperiodpayin()const;  //¼e­­´Á¤º»İ¥Iª÷ÃB
-	double getGraceperiodpayout()const;  //¼e­­´Á«á»İ¥Iª÷ÃB
+    // åŠŸèƒ½å‡½å¼
+    double getMonthpay() const;  //æ¯æœˆéœ€ä»˜é‡‘é¡
+    double getGraceperiodpayin()const;  //å¯¬é™æœŸå…§éœ€ä»˜é‡‘é¡
+	double getGraceperiodpayout()const;  //å¯¬é™æœŸå¾Œéœ€ä»˜é‡‘é¡
 };
 #endif
