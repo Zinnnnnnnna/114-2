@@ -14,9 +14,9 @@
 
 運行畫面截圖:
 
-![image]
+![image](https://github.com/Zinnnnnnnna/114-2/blob/main/image.png)
+![image](https://github.com/Zinnnnnnnna/114-2/blob/main/image.png)
 
-![image]
 
 分工資訊:
 
