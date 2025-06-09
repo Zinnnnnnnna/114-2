@@ -6,7 +6,8 @@
 
 小專題題目:房、車貸款計算器
 UML
-![image](https://github.com/Zinnnnnnnna/114-2/blob/main/image.png)
+![image][(https://github.com/Zinnnnnnnna/114-2/blob/main/image.png)](https://github.com/Zinnnnnnnna/114-2/blob/main/截圖%202025-06-09%20晚上9.31.54.png)
+
 
 程式介紹:使用c++，採用物件導向設計，將房貸與車貸封裝為不同類別，並統一透過Loan父類別管理
 
