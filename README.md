@@ -5,6 +5,8 @@
 成員:陳欣宜、李桐恩、游晉瑋
 
 小專題題目:房、車貸款計算器
+UML
+![image](https://github.com/Zinnnnnnnna/114-2/blob/main/image.png)
 
 程式介紹:使用c++，採用物件導向設計，將房貸與車貸封裝為不同類別，並統一透過Loan父類別管理
 
